@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-// import "E:\Tutorials\M E R N Tutorial\React Tutorial\Programs\text-utils\node_modules\bootstrap\dist\css\bootstrap.min.css"
-// import "E:\Tutorials\M E R N Tutorial\React Tutorial\Programs\text-utils\node_modules\bootstrap\dist\js\bootstrap.min.js"
+
+import ""
 
 
 export default function Textform(props) {
