@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+// import "E:\Tutorials\M E R N Tutorial\React Tutorial\Programs\text-utils\node_modules\bootstrap\dist\css\bootstrap.min.css"
+// import "E:\Tutorials\M E R N Tutorial\React Tutorial\Programs\text-utils\node_modules\bootstrap\dist\js\bootstrap.min.js"
+
 
 export default function Textform(props) {
   const UpperCase = () => {
@@ -12,11 +15,12 @@ export default function Textform(props) {
     props.Alert_func("Successfully converted to LowerCase","success");
   };
   
-  const ClearText = () => {
-    let gettext = text;
-    setText(gettext = "");
-    props.Alert_func("All Text is Cleared","success");
-  };
+  // const ClearText = () => {
+  //   let gettext;
+  //   gettext = text;
+  //   setText(gettext = "");
+  //   props.Alert_func("All Text is Cleared","success");
+  // };
 
   const OnChange = (event) => {
     setText(event.target.value);
@@ -49,9 +53,9 @@ export default function Textform(props) {
         <button className="btn btn-primary mx-1" onClick={LowerCase}>
           LowerCase
         </button>
-        <button className="btn btn-primary mx-1" onClick={ClearText}>
+        {/* <button className="btn btn-primary mx-1" onClick={ClearText}>
           Clear Text
-        </button>
+        </button> */}
         {/* <button className="btn btn-primary m-4" onClick={}>UpperCase</button>
         <button className="btn btn-primary m-4" onClick={}>UpperCase</button> */}
       </div>
