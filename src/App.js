@@ -8,11 +8,11 @@ import ""
 import ""
 
 // import ReactDOM from "react-dom/client";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+// import {
+//   BrowserRouter,
+//   Routes,
+//   Route,
+// } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light"); // default mode
@@ -56,7 +56,7 @@ function App() {
 
       <Alert alert={alert} />
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Textform
             heading="Welcome To TEXT UTILS"
@@ -67,17 +67,17 @@ function App() {
             <Route index element={<About />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
 
 
-      {/* <Textform
+      <Textform
         heading="Welcome To TEXT UTILS"
         textareaHeading="Enter the text to analyze"
         mode={mode}
         Alert_func={Alert_func}
       />
-      <About /> */}
+      <About />
 
     </>
   );
