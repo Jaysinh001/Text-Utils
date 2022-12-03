@@ -4,8 +4,8 @@ import About from "./components/About";
 import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
 import Textform from "./components/Textform";
-import ""
-import ""
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 
 // import ReactDOM from "react-dom/client";
 // import {
