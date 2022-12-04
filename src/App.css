@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1f1e1e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
 
 
 .textArea_Style_dark{
-  background-color : #0b032a;
+  background-color : #1f1e1e;
     color: white;
 }
 .textArea_Style_light{
